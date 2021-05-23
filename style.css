@@ -7,6 +7,7 @@ body {
 	background-image: url("/538553-arc-en-ciel-3d-carres-pixel-art-background-gratuit-vectoriel.png");
 	background-size: cover;
 	background-size: 1500px;
+	margin: 0;
 }
 
 @font-face {
@@ -30,10 +31,10 @@ body {
 } */
 
 #title {
-	padding: 20px;
+	padding: 15px;
 	font-family: Pixel;
 	font-size: 40px;
-	margin: 20px 5px;
+	margin: 15px 5px;
 }
 
 .color {
@@ -62,7 +63,11 @@ body {
 	display: flex;
 	justify-content: center;
 	padding: 10px;
-	background-color: rgb(253, 242, 234, 0.7);
+	background-color: rgb(253, 242, 234, 0.8);
+	border-radius: 10px;
+	width: fit-content;
+	margin: auto;
+	margin-bottom: 15px;
 }
 
 .pixel {
@@ -73,6 +78,43 @@ body {
 	padding: 0px;
 	margin-right: -1px;
 	margin-bottom: -5px;
-	border: 1px solid black;
+	border: 1px solid rgb(0, 0, 0, 0.1);
 	background: white;
+}
+
+#generate-board {
+	background-color: rgb(253, 242, 234);
+	border: 0;
+	border-radius: 4px;
+	font-family: 'Courier New', Courier, monospace;
+	margin: 1px;
+	padding: 6px 8px;
+}
+
+#clear-board {
+	background-color: rgb(253, 242, 234);
+	border: 0;
+	border-radius: 4px;
+	font-family: 'Courier New', Courier, monospace;
+	margin: 10px 0 25px 25px;
+	padding: 6px 8px;
+}
+
+#board-size {
+	background-color: rgb(253, 242, 234);
+	border: 0;
+	border-radius: 4px;
+	font-family: 'Courier New', Courier, monospace;
+	padding: 6px 8px;
+}
+
+footer {
+	margin-top: 30px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	padding: 10px;
+	background-color: rgb(253, 242, 234, 0.4);
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 13px;
 }
