@@ -4,9 +4,14 @@
 }
 
 body {
-	background-image: url("efdeae709ea42996e8413c58b4cf39fb.jpg");
+	background-image: url("/538553-arc-en-ciel-3d-carres-pixel-art-background-gratuit-vectoriel.png");
 	background-size: cover;
 	background-size: 1500px;
+}
+
+@font-face {
+	font-family: Pixel;
+	src: url('/04B_30__.TTF');
 }
 
 /* body {
@@ -15,17 +20,28 @@ body {
 	background-size: 1155px;
 } */
 
+/* @media only screen and (max-width: 500px) {
+	#title {
+		padding: 20px;
+		font-family: Pixel;
+		font-size: 40px;
+		margin: 20px 5px;
+	}
+} */
+
 #title {
-	padding: 10px;
-	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding: 20px;
+	font-family: Pixel;
+	font-size: 40px;
+	margin: 20px 5px;
 }
 
 .color {
-	border: solid 1px black;
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
 	display: inline-block;
 	margin: 5px;
+	border-radius: 50%;
 }
 
 #first-color {
@@ -43,7 +59,10 @@ body {
 } */
 
 #color-palette {
+	display: flex;
+	justify-content: center;
 	padding: 10px;
+	background-color: rgb(253, 242, 234, 0.7);
 }
 
 .pixel {
