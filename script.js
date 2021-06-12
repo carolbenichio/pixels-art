@@ -51,8 +51,6 @@ window.onload = function () {
     clearButton.id = 'clear-board';
     document.body.insertBefore(clearButton, pixelBoard);
     clearButton.innerText = 'Limpar desenho';
-    clearButton.style.margin = '10px';
-    clearButton.style.padding = '5px';
   
     function cleanBoard() {
       const clickedPixel = document.querySelectorAll('.pixel');
@@ -67,6 +65,7 @@ window.onload = function () {
     const boardSize = document.createElement('input');
     boardSize.id = 'board-size';
     boardSize.type = 'number';
+    boardSize.placeholder = 'Número de 5 a 50!';
     boardSize.min = '1';
     document.body.insertBefore(boardSize, clearButton);
   
